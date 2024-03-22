@@ -18,7 +18,7 @@ const viewProduct = () => {
     product.map((val) =>{
         return (
             tbl += `
-            <div class="col-12 col-md-3 p-3">
+            <div class="col-12 col-md-6 col-xl-3 p-3">
             <div class="card">
                <div class="img">
                <p style = "display : none;">${val.id}</p>
